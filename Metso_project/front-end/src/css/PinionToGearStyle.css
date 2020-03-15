@@ -1,0 +1,170 @@
+
+.pinion-to-gear-flex, .contact-offset-flex , .button-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 15px;
+}
+
+.pinion-to-gear-flex > .reportTable.form.pinionToGear {
+  font-family:  Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+div.contact-offset-flex{
+  margin-top:2%;
+  margin-bottom: 15px;
+}
+
+div.contact-offset-flex > div.gear-pinion-contact-pattern-offset{
+  margin-right:auto; 
+  width:47.5%;
+}
+
+div.contact-offset-flex > .pinion-offset {
+  margin-left:auto;  
+  width:47.5%;
+}
+
+h2.contact-backlash{
+  display: block;
+  width: 400px;
+  background-color: #E7E7E7;
+  margin-left:auto;  
+  margin-right:auto; 
+}
+
+h2.contact-pattern{
+  background-color: #E7E7E7;
+  width:250px;
+  height:18%;
+}
+
+.pinion-offset-title{
+  height:14%;
+  background-color: #E7E7E7;
+  width:200px;
+}
+
+.pinion-offset form.offset-form{
+  margin-top:2%;
+  background-color: white;
+  height:80%;
+}
+
+h5{
+    text-align: left;
+    letter-spacing:0em;
+}
+.reportTable .station_number_pinion{
+  width:100px;
+}
+
+.station_number_pinion input[type=number]{
+  background-color: yellowgreen;
+}
+  
+  .first-td .inner-table .inner-tBody .input-row{
+    background-color: #DBE8ED;
+  }
+
+  .reportTable th{
+    border: 0.5px solid black; 
+    margin-top:auto;
+    margin-bottom:auto;
+    height:100%;
+    width: 100%;
+  }
+
+  .reportTable td{
+    border: 0.5px solid black; 
+    margin-top:auto;
+    margin-bottom:auto;
+    height:25px;
+  }
+
+  .reportTable td.first-td{
+    height:50px;
+  }
+
+  .reportTable input[type=text]#pinionGearInputs{
+    border-style: none;
+  }
+
+  .reportTable tr:nth-child(even){
+    background-color: #f2f2f2;}
+  
+  .reportTable tr:hover {background-color: #ddd;}
+  
+  form.pinionToGear{
+    margin-top:25px;
+  }
+
+  .reportTable .pinionToGear th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #00a877 ;
+    color: white;
+  
+  }
+
+  .pinion-contact-pattern{
+    margin-top: 2%;
+    background-color: white;
+    border: 1px solid black;  
+    width:100%; 
+  }
+
+  .pinion-contact-pattern th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black; 
+    background-color: #00a877 ;
+    color: white;
+  }
+
+  .pinion-contact-pattern td{
+    border: 1px solid black; 
+  }
+
+  .offset-label{
+    text-shadow:  1px 0.5px black; 
+  }
+
+  .station_number_input{
+    border-color:white;
+    background-color: limegreen;
+    width: 55px;
+  }
+
+  .contact-pattern{
+    background-color: #E7E7E7;
+  }
+
+  .container.pinion-offset{
+    transform: translateY(75px);
+  }
+
+  .container.pinion-offset .col-sm-3{
+    width: 25%;
+  }
+
+  .container.pinion-offset .col-sm-3 input[type="number"]{
+    transform: translateY(-10px);
+    margin-bottom: 10%;
+  }
+
+/* 16 inch monitor Lenovo P51  */
+ @media (max-width: 1536px) {
+ .position_percentile_image{
+    transform: translateY(10px);
+  }
+  .position_percentile{
+    transform: translate(-10px,-5px);
+  }
+}  
+  

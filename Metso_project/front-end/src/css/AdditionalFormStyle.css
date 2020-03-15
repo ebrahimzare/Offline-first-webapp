@@ -1,0 +1,52 @@
+.entire-form{
+    position:fixed;
+    bottom:0;
+    max-width: 1978px;
+}
+
+label{
+    font-size: 16px;
+}
+
+.additional-form-inputs label{
+    padding-bottom:35px;
+
+}
+
+div.job-update-row{
+    margin-top: auto;
+    margin-bottom: auto;
+    height:100%;
+}
+
+.job-update-form{
+    margin-top: 20%;
+    height:50%;
+}
+
+div.col-lg-8 ,div.form-group{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+} 
+
+.errorMessage{
+    font-size:20px;
+}
+
+/* ADD SOME MEDIA QUERIES */
+
+textarea#text-field-client.form-control{
+    font-size: 24px;
+}
+
+textarea#text-field.form-control{
+    height: 400px;
+    font-size: 18px;
+    
+}
+
+input#jobUpdateSubmit{
+    margin-top: 25px; 
+    width: 40%;
+}

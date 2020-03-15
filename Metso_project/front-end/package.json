@@ -1,0 +1,63 @@
+{
+  "name": "metso_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.3.1",
+    "antd": "^3.21.4",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "immutability-helper": "^3.0.1",
+    "jquery": "^1.9.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-addons-update": "^15.6.2",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-image-mapper": "0.0.14",
+    "react-modal": "^3.9.1",
+    "react-redux": "^7.1.1",
+    "react-responsive-modal": "^4.0.1",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.4",
+    "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start && set NODE_ENV=development && webpack --watch --progress",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "docs": "/node_modules/.bin/jsdoc -c jsdoc.json"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.3",
+    "jsdoc": "^3.6.3",
+    "typescript": "3.3.3",
+    "webpack-cli": "^3.3.9"
+  },
+  "proxy": "http://localhost:8000"
+}

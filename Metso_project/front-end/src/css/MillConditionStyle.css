@@ -1,0 +1,92 @@
+.staticTable{
+    padding:50px 20px 200px 20px;
+    min-width:100%;
+    margin-bottom: 20px;
+}
+
+.mill-condition-form{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  width: 80%;
+}
+
+.mill-condition-form input {
+  border: 1px solid #eeeeee;
+  width:50%;
+  margin: auto;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: black;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.mill-condition-form  .MuiTableBody-root td{
+  font-size: 14px;
+  background-color: #FFFFFF;
+  width: 33.3333%;
+}
+
+.mill-condition-form .MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignCenter.MuiTableCell-sizeSmall{
+  background-color: teal;
+  color:white;
+  font-size: 18px;
+}
+
+  .caption {
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .mill-condition-form .MuiTableCell-alignRight {
+    text-align: center;
+    flex-direction: row-reverse;
+}
+
+  #mill-condition-select{
+    width: 20%;
+    margin:auto;
+  }
+
+  .switch-mill-view{
+    display:inline-block;
+    height:50px; 
+    width:2%;
+    transform: translate(-300px,-60px);
+  }
+
+  .switch-mill-view button.btn-success{
+    width:110px;
+    height:60px; 
+    font-size: 18px;
+  }
+
+  /* clicked update */
+  .switch-mill-view-false{
+    display:inline-block;
+    margin: 30px auto 0;
+    height:50px; 
+  }
+
+  .switch-mill-view-false button.btn-success, button.btn-primary  , button#submit{
+    width:200px;
+    height:60px; 
+    font-size: 18px;
+  }
+  
+  #revert:hover {
+    background: rgb(4, 214, 252);
+    border: 1px #DADADA;
+    color: black;
+  }
+
+  #submit:hover {
+    background: rgb(97, 224, 23);
+    border: 1px #DADADA;
+    color: black;
+  }

@@ -1,0 +1,170 @@
+li{
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-shadow: 0.25px 0.25px black;
+}
+
+.customerLogo {
+  display: inline;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+p.pBody {
+  color: black;
+  margin: 10px 15px;
+  height:70px;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  padding-top: 20px; 
+  text-shadow: 0.5px 0.5px black;
+}
+
+div.four.wide.column{
+  background-color: #F3F3F3;
+  height:90vh;
+  width: 20%;
+  
+}
+
+div.ui.segment{
+  width: 100%;
+  height:90vh;
+  border: none;
+  background-color: white;
+}
+
+
+table.ui.striped.table{
+  border:none;
+  background-color: none;
+  position: relative;
+  width:90%;
+  margin: 20px 0 20px 20px;
+}
+
+.mainImg {
+  margin-left: 380px;
+  padding: 50px 50px;
+  width: 500px;
+  height: 300px;
+}
+
+.ui.vertical.tabular.menu .item{
+  text-align: left;
+  width: 90%;
+  margin:auto;
+  width: 100%;
+}
+
+.ui.vertical.tabular.menu .active.item{
+  text-align: left;
+  width: 90%;
+  margin:auto;
+  border: 2px solid rgb(117, 117, 116);
+}
+
+.equipment-table{
+padding-top: 100px;
+}
+
+.equipment-table table{
+  max-width: 100%; 
+  border-color: #ccc;
+}
+
+.equipment-table .ui.table thead th {
+  cursor: auto;
+  font-style: none;
+  text-transform: none;
+  border-bottom: 1px solid grey;
+  border-left: none;
+  border: 1px solid grey;
+  white-space: nowrap;
+  background-color: #3a3939;
+  color:white;
+  font-size: 24px;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.equipment-table table tbody tr{
+  border: 1px solid grey;
+}
+
+.equipment-table table tbody td{
+  border: 1px solid grey;
+  font-size: 18px;
+}
+
+.equipment-table table tbody td a{
+  color: rgb(7, 11, 59);
+  font-weight: 0em;
+  text-shadow: 1px 1px white;
+}
+
+.equipment-table table>tbody>tr:nth-child(odd)>td
+ {
+   background-color: rgb(246, 249, 250); 
+   color:rgb(48, 48, 49);
+   text-shadow: 1px 1px white;
+   
+ }
+
+ .equipment-table table>tbody>tr:nth-child(even)>td
+ {
+   background-color: #dde0e0; 
+   color:rgb(48, 48, 49);;
+   text-shadow: 1px 1px white;
+ }
+
+
+/* input.searchField {
+  transform: translateX(-17px);
+}
+button.searchButton{
+  transform: translateX(-45px);
+} */
+
+form > .searchField {
+  outline: 0;
+  height: 42px;
+  width: 200px;
+  line-height: 42px;
+  padding: 0 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #212121;
+  border: 0;
+  float: left;
+  -webkit-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+form > .searchField:focus {
+  outline: 0;
+  background-color: #E4E2E2;
+}
+
+form > .searchButton {
+  outline: 0;
+  background: none;
+  background-color: rgba(38, 50, 56, 0.8);
+  float: left;
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  line-height: 42px;
+  border: 0;
+  color: #FFF;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 16px;
+  text-rendering: auto;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: background-color .4s ease;
+  transition: background-color .4s ease;
+  -webkit-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+form > .searchButton:hover {
+  background-color: teal;
+}

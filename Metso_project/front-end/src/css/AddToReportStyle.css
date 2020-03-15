@@ -1,0 +1,190 @@
+div.add-to-report-block {
+  width: 80%;
+  margin-top:20%;
+  margin-left:auto;
+  margin-right:auto;
+  height:60%;
+}
+
+div.addToReport.intro {
+    background-color: #eee;
+    /* padding-top:200px; */
+ }
+
+.row.image-contents {
+    min-height:30vh;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+div.select-type-add-to-report select.form-control{
+    width: 70%;
+    /* height:100px; */
+   
+    margin-right: auto;
+    font-size: 24px;
+}
+
+/* select#exampleForm.ControlSelect1.form-control{
+    width: 100%;
+   
+} */
+
+div.addToReport-body.intro,div.addToReport-body.images {
+    width: 100%;
+    height:100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+div.add-to-report-button-position{
+    margin-top:25px;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.add-to-report-inputs textarea.form-control {
+    width: 70%;
+    height:250px;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.add-to-report-inputs .form-control{
+    width:50%;
+}
+
+.image-input-addToReport-service input[type=text]{  
+    width: 70%;
+}
+
+.image-input-addToReport-service{
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.col-sm .individual-uploaded-image{
+    width: 33%;
+}
+
+.image-input-addToReport-client{
+    min-height:25vh;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    /* transform: translateY(-200px); */
+}
+
+img.uploadImage{
+    border:3px solid #009fa0;
+}
+
+.addToReportButtonImage , .addToReportButtonIntro{
+    width: 200px;
+    letter-spacing: 0.5em;
+}
+
+/* upload file button */
+.file-upload-addToReport input{
+    border: none;
+    border-style: none;
+    width:380px; 
+    margin-top: 15px;
+}
+
+.select-type-add-to-report{
+    /* transform: translate(75px, -100px); */
+    /* width:50%; */
+    padding-bottom: 15px;
+}
+
+div.select-type-add-to-report div.form-group{
+    width:70%;
+    margin-left:auto;
+    /* margin-right: auto; */
+}
+
+.form-group label.form-label{
+    font-size: 24px;
+    color:#009fa0;
+    padding-bottom:15px;
+  }
+
+/* client */
+
+.image-input-addToReport-client{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.col-sm.individual-uploaded-image{
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom:15px;
+
+}
+
+img.uploadImage{
+    display: block;
+    transition: transform 400ms ease-out;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img.uploadImage:hover{
+    transform: scale(1.15);
+}
+
+img.uploadImage:hover + h4{
+    padding-top:35px;
+    padding-bottom:20px;
+}
+
+.col-sm.individual-uploaded-image h4{
+    flex: 0 0 100%; 
+    padding-top:20px;
+    padding-bottom:15px;
+    text-align: center;
+}
+/* CSS order top to bottom, big to small */ 
+/* 16 inch*/
+/* @media (max-width: 1536px) {
+
+  } */
+
+/*Ipad Pro*/
+@media (max-width: 1366px) {
+
+    /* .image-input-addToReport-service input[type=text]{  
+        transform: translateX(-20px);
+    }
+    
+    .image-input-addToReport-service{
+        transform: translate(-50px, -420px);
+    }
+
+    .addToReportButtonImage{
+        transform: translate(185px,-25px);
+    }
+
+    .intro-input{
+        transform: translateX(15px);
+    }
+
+    .addToReportButtonIntro{
+    transform: translate(195px, 60px);
+    } */
+  }
+
+  /*portrait*/
+/* @media (max-width: 1224px) {
+
+   
+
+  }
+ */

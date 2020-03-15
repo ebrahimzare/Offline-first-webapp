@@ -1,0 +1,101 @@
+.entire-form{
+    background-color:#eee;
+    top:0;
+    transform: translateX(-50%);
+    overflow-y: auto;
+    width: 70%;
+    min-height: 100vh;
+}
+
+.entire-form .form-header{
+    text-align:center;
+    font-size:15px;
+    /* padding:25px; */
+}
+
+input[type=radio] {
+    border: none;
+    height:0;
+    width:0;
+}
+
+.ant-radio-group.ant-radio-group-outline.ant-radio-group-small{
+    padding-bottom:20px;
+}
+
+div.field span{
+padding-left:20px; 
+}
+
+.job-form-group .btn{
+    align-self: center;
+    width: 20%;
+    height:50px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.job-form-group .entire-form label{
+    letter-spacing: 1px;
+    
+}
+
+.job-form-group .container-fluid{
+    padding-top: 20px;
+}
+
+.job-form-group .field{
+    font-size: 15px;
+    width: 80%;
+    transform: translateX(100px);
+}
+
+.job-form-group .displayFields{
+    padding-top:20px;
+}
+
+button.styles_closeButton__20ID4{
+    background-color: #eee;
+    transform: translate(475px, -375px);
+}
+
+input.error {
+    border: 1px solid red;
+  }
+  
+.errorMessage {
+    color: red;
+    font-size: 15px;
+    display: relative;
+  }
+
+  .ui.form .field>label {
+    display: block;
+    margin: 1rem 0 1rem 0;
+    color: rgba(0,0,0,.87);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+#submit_button{
+    margin-top:10px;
+}
+
+/* 16 inch monitor Lenovo P51  */
+@media (max-width: 1536px) {
+
+    button.styles_closeButton__20ID4{
+        transform: translate(500px, -270px);
+    }
+
+    .footer-text h5{
+      transform: translate(590px, 25px);
+    }
+
+  }  
+
+@media (max-width: 1400px) {
+    button.styles_closeButton__20ID4{
+        transform: translate(425px, -420px);
+    }
+  }

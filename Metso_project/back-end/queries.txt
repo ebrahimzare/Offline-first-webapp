@@ -1,0 +1,93 @@
+
+SQLLITE:
+
+CREATE TABLE IF NOT EXISTS "tasks_task" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+ "report_id" integer NOT NULL  UNIQUE,
+ "job_number" integer NOT NULL,
+ "work_order_number" integer NOT NULL,
+ "representative_name" varchar(255) NOT NULL,
+ "contact_info" varchar(255) NULL,
+ "project_number" integer NULL,
+ "date" text NOT NULL,
+ "visit_reason" text NULL,
+ "work_performed" text NULL,
+ "recommendation" text NULL);
+
+INSERT INTO tasks_task(id,report_id,job_number,work_order_number,representative_name,contact_info,project_number,date,visit_reason,work_performed,recommendation)
+VALUES (1,56,123,21,"Bob","bob@hotmail.com", 15, "2018-01-01","checkup", "" ,"");
+
+INSERT INTO tasks_task(id,report_id,job_number,work_order_number,representative_name,contact_info,project_number,date,visit_reason,work_performed,recommendation)
+VALUES (2,23,231,15,"Tom","tom@gmail.com", 35, "2014-02-25","work related", "" ,"");
+
+CREATE TABLE IF NOT EXISTS tasks_millcondition("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "mill_id" varchar(255) NOT NULL, "version" integer NOT NULL, "component" varchar(255) NOT NULL, "condition" varchar(255) NOT NULL, "work_to_be_scheduled" varchar(255) NOT NULL);
+
+DROP TABLE tasks_millcondition;
+
+
+MySQL
+
+CREATE TABLE IF NOT EXISTS tasks_task (
+   id integer NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   report_id integer NOT NULL  UNIQUE,
+   equipment_serial_number text NOT NULL,
+   job_number integer NULL, 
+   work_order_number integer NULL,
+   project_number integer NULL,
+   representative_name varchar(255) NULL,
+   contact_info varchar(255) NULL,
+   date text NULL,
+   introduction text NULL,
+   visit_reason text NULL,
+   work_performed text NULL,
+   recommendation text NULL,
+   report_status BOOL NOT NULL DEFAULT FALSE	
+);
+
+INSERT INTO tasks_task (id,report_id,equipment_serial_number,job_number,work_order_number,project_number,representative_name,contact_info,date,introduction,visit_reason,work_performed,recommendation,report_status)
+VALUES (1,56,"72345",123,21, 15,"Bob","bob@hotmail.com", "2018-01-01","" ,"checkup", "something" ,"ddfd", FALSE);
+
+INSERT INTO tasks_task (id,report_id,equipment_serial_number,job_number,work_order_number,project_number,representative_name,contact_info,date,introduction,visit_reason,work_performed,recommendation,report_status)
+VALUES (2,23,"72346-B", 231,15,35,"Tom","tom@gmail.com", "2014-02-25","","work related", "something11" ,"eeeee", FALSE);
+
+INSERT INTO tasks_task (id,report_id,equipment_serial_number,job_number,work_order_number,project_number,representative_name,contact_info,date,introduction,visit_reason,work_performed,recommendation,report_status)
+VALUES (4,43,"72346-B", 543,65,12,"Jack","jack@gmail.com", "2016-03-15","","blah blah", "" ,"",FALSE);
+
+INSERT INTO tasks_task (id,report_id,equipment_serial_number,job_number,work_order_number,project_number,representative_name,contact_info,date,introduction,visit_reason,work_performed,recommendation,report_status)
+VALUES (5,54,"72346-B", 20305610,21,32,"Éric et Sylvain","agagnon@canadianmalartic.com", "2018-09-18","résume les travaux effectués par le représentant de service en chantier.","Lavage de la couronne", "changés les filtreurs" ,"fabriquer une plateforme qui pourrait être
+réutilisée",TRUE);
+
+CREATE TABLE `metso_app`.`tasks_photos` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `report_id` INT NOT NULL,
+  `name` VARCHAR(255) NOT NULL,
+  `image` BLOB NOT NULL,
+  PRIMARY KEY (`id`));
+
+CREATE TABLE `metso_app`.`tasks_millcondition` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `mill_id` VARCHAR(255) NOT NULL,
+  `version` INT NOT NULL DEFAULT '1',
+  `component` VARCHAR(255) NOT NULL,
+  `condition` VARCHAR(255) NOT NULL,
+  `work_to_be_scheduled` TEXT NOT NULL,
+  PRIMARY KEY (`id`));
+
+CREATE TABLE `metso_app`.`tasks_equipclients` (
+  `id` INT NOT NULL,
+  `client_id` INT NOT NULL,
+  `name` VARCHAR(255) NOT NULL,
+  `phone` VARCHAR(45) NOT NULL,
+  `address` VARCHAR(255) NOT NULL,
+  `logo` VARCHAR(255) NOT NULL,
+  `equip_type` VARCHAR(255) NOT NULL,
+  `model` VARCHAR(255) NOT NULL,
+  `customer_reference` VARCHAR(255) NOT NULL,
+  `equipment_serial_number` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`));
+
+SELECT DISTINCT NAME FROM TASKS_EQUIPCLIENTS;
+SELECT DISTINCT CLIENT_ID FROM TASKS_EQUIPCLIENTS;
+
+---------------------------------------------------------------------------------------------------------
+
+

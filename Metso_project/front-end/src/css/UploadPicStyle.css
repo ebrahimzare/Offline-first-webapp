@@ -1,0 +1,49 @@
+.upload-pic-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+form.UploadPicForm #image-file-upload{
+    border:none;
+    width: 100%;
+    padding:0;
+}
+
+input#image-title{
+    margin: 20px 0 10px 0;
+}
+
+div.row.submit-report{
+    margin-top:100px;
+}
+
+form.UploadPicForm{
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:72%;
+}
+
+form.UploadPicForm input[type="text"], form.UploadPicForm textarea{
+    width: 100%;
+    background-color: rgb(233, 236, 236);
+}
+#image-submit-button{
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 25px;
+}
+
+#upload-image-datasheet{
+    width: 15%;
+    height:35px;
+}
+
+/* 16 inch monitor Lenovo P51  */
+
+/* @media (max-width: 1536px) {
+    .UploadPicForm textarea{
+        transform: translateX(25px);
+    }
+  }   */

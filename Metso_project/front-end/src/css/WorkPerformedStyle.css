@@ -1,0 +1,21 @@
+.entire-form{
+    overflow-y: auto;
+    max-height: 100vh;
+    top:0;
+    padding: 15px;
+}
+
+.entire-form .form-group{
+    position: absolute;
+    top:300px;
+   
+}
+
+.entire-form .form-control{
+    height:50px;
+    width: 100%;
+}
+
+.entire-form .btn{
+    width: 200%;
+}

@@ -1,0 +1,1 @@
+export const tableHeaderConstants = ['Report ID','Equipment','Job Number', 'Work Order Number', 'Project Number', 'Name','Contact Info', 'Date','Introduction', 'Reason for Visit', 'Work Performed', 'Recommendations'];  

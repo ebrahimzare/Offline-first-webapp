@@ -1,0 +1,41 @@
+.mill-image{
+  position: absolute;
+  right: 100px;
+}
+
+.cordanates{
+ position: absolute;
+  left:0;
+  /* margin: 20; */
+  padding: 150px;
+  margin-right: 20%
+  
+} 
+
+/* 16 inch monitor Lenovo P51  */
+@media (max-width: 1536px) {
+  .mill-image{
+    position: absolute;
+    width:100px;
+    height:100px;
+    transform: translateX(-400px);
+  }
+}
+
+/* Ipad Pro */
+/* @media (max-width: 1400px) {
+ 
+} */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {    
+  .mill-image{
+    position: absolute;
+    right: 0;
+    bottom:-350px;
+    width: -100px;
+  }
+  
+}

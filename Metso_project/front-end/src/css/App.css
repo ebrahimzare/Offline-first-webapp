@@ -1,0 +1,360 @@
+.App {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+	padding: 0px;
+  background-color: white;
+  max-width: 1978px;
+  min-width: 981px;
+  
+}
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+body {
+  line-height: 1;
+  -webkit-text-size-adjust: none;
+  -ms-overflow-style: scrollbar;
+  
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+p, ol, ul {
+  margin-top: 0px;
+  line-height: 160%;
+}
+
+p {
+  margin-bottom: 2em;
+  line-height: 160%;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+.header-tophalf{
+  background-color: #009fa0;
+ 
+}
+
+.header{
+  background-color: #009fa0;
+  margin: auto;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  max-width: 1978px;
+  text-shadow: 1.5px 1.5px black;
+}
+
+ .header .container{
+	padding: 1em 0em;
+} 
+
+.client_header{
+  background-color:  #E05314;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:300px;
+  font-size: 14px;
+  max-width: 1978px;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.svg-icon {
+	width: 3em;
+	height: 2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+	fill: white;
+  }
+
+.logged-in-user{
+  transform: translateX(calc(-30% - 10px));
+  margin-bottom: 25px;
+}
+
+h4.logged-in-user-text{
+  color:white;
+  text-shadow: 1.5px 1.5px black;
+  width:25%;
+}
+
+#logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-link{
+  font-size: 2.8em;
+  width:25%;
+}
+
+#featured{
+  background-color: white; 
+  position: relative;
+  padding-bottom: 3em;
+}
+
+.flexFooter {
+  background-color: rgb(224, 83, 20); /*Metso Orange*/
+  position: relative;
+  color: white;
+  padding-bottom: 9em ;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1978px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-shadow: 1.25px 1.25px black;
+}
+
+.footer-text{
+  transform: translateY(80px);
+}
+
+.footer-text h5{
+  transform: translate(790px, 25px);
+}
+
+.client_footer{
+  background-color: #6E6C70;
+  position: relative;
+  color: white;
+  padding-bottom: 9em ;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1978px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:300px;
+  font-size: 18px;
+}
+
+.buttons-section{
+  position: absolute;
+  left:60px;
+  margin:10px;
+}
+
+#createBtn{
+ height:50px;
+ width: 200px;
+ margin:10px;
+}
+
+#mill{
+  position: absolute;
+  right: 150px;
+  width:30%;
+  
+}
+
+#createBtn:hover{
+ background-color: rgb(125, 255, 0); 
+ }
+
+.content{
+  max-width: 1978px;
+  min-width: 981px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 60vh;
+  background-color: white;
+}
+div.navigation-redirection {
+  background-color: white;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 10px;
+}
+
+div.navigation-redirection div#responsive-navbar-nav a.nav-link{
+  text-shadow: 1px 1.15px 1px white;
+  color:rgb(19, 48, 48);
+}
+
+/* nav bar in header */
+.nav-item-head a.nav-link{
+  background: rgb(185, 243, 226);
+  box-shadow: 2px 2px 7px rgb(41, 40, 40);
+  border-color: black;
+  border-radius: 10px;
+  margin:15px 5px 15px 5px;
+}
+
+.nav-item-head .nav-text{
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+  letter-spacing: 0.5px;  
+}
+
+.nav-item-head:hover a.nav-link ,.nav-text:hover{
+  background-color: rgb(150, 248, 224);
+  border-radius: 10px;
+  color:white;
+  text-shadow: 1px 1.15px 1px black;
+}
+
+.report-description li{
+  
+  font-size:24px;
+  line-height: 30px;
+}
+
+.main-title{
+  color:white;
+
+
+}
+#headerTitle{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-title:hover{
+  color:white;
+  text-decoration: underline;
+}
+
+.form-control:focus   {
+  border-color: teal;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px teal;
+}
+
+
+/* Desktop Monitor */
+@media (min-width: 1920px) { 
+
+  #headerTitle{
+    transform: translateY(-40px);
+  }
+
+header img{
+  transform: translate3d(-450%, 25%, -135px);
+}
+  
+.flexFooter img  , .client_footer img{
+  transform: translate3d(-450%, 175%, -135px);
+}
+}
+
+@media (max-width: 1919px) { 
+
+.flexFooter img  , .client_footer img{
+  transform: translateY(60px);
+}
+}
+
+/* 16 inch monitor Lenovo P51  */
+@media (max-width: 1536px) {
+
+  .logged-in-user{
+    transform: translate(-500px,-55px);
+  }
+
+  .content{
+    min-height: 80vh;
+    width: 100%
+  }
+  
+  .footer-text h5{
+    transform: translate(590px, 25px);
+  }
+}
+
+/* Ipad Pro */
+@media (max-width: 1400px) {
+
+  /* .logged-in-user{
+    transform: translate(-500px,-55px);
+  } */
+
+  .flexFooter {
+    
+   height:400px;
+   
+  }
+
+  .content{
+    min-height: 80vh;
+  }
+
+  .footer-text h5{
+    transform: translate(525px, 25px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  html, body {
+    min-width: 320px;
+  }
+
+}
+/*
+  mobile phone between 320 - 1024 width
+
+  11.5” x 7.9” Microsoft Surface Pro
+  11 in	1056 px
+  12 in	1152 px
+  13 in	1248 px
+  14 in	1344 px
+  15 in	1440 px
+  17 in	1632 px
+  18 in	1728 px
+  19 in	1824 px
+  20 in	1920 px
+  Max Width set to 1978px
+  21 in	2016 px
+  */
+

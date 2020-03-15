@@ -1,0 +1,415 @@
+.container.millAlignmentClass{
+    padding:10px;
+    max-width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid black;
+}
+
+.container.millAlignmentClass input{
+    position: absolute;
+    background-color: rgb(212, 235, 255);
+}
+
+.image-container-flex{
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img.millAlignment-image{
+    /* min_width: 1092px; */
+    height: auto;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container.millAlignmentClass div.lift_input_block{
+    position: absolute;
+    top:18.9%;
+    left:22%;
+    height:22px;
+    width:44.4%;
+}
+
+.container.millAlignmentClass input#pinion_offset_left_input , .container.millAlignmentClass input#pinion_offset_right_input  {
+    left:44.5%;
+    height:22px;
+    width:5%;
+    background-color: rgb(212, 235, 255);
+    border-color: black;
+}
+
+select.pinion_offset_left_direction , select.pinion_offset_right_direction{
+    position: absolute;
+    left:41.7%;
+    height:47px;
+    width:4.2%;
+    background-color: lightgrey;
+    border-color: black;
+}
+
+div.pinion_root_inputs_right,div.pinion_root_inputs_left{
+    position: absolute;
+    left:35.6%;
+    height:25px;
+    width:17%;
+    border-color: black;
+}
+
+input#pinion_offset_right_root_right_side , input#pinion_offset_left_root_right_side,
+input#pinion_offset_right_root_left_side , input#pinion_offset_left_root_left_side{
+    height:20px;
+    width:26%;
+   
+}
+
+input#pinion_offset_left_input{
+    top: 7.1%;
+}
+
+select.pinion_offset_left_direction{
+    top:10%;
+}
+
+div.pinion_root_inputs_left{
+    top:18%;   
+}
+
+input#pinion_offset_right_input{
+    bottom:22.3%;
+}
+
+select.pinion_offset_right_direction{
+    bottom:25.5%;
+}
+
+div.pinion_root_inputs_right{
+    bottom:29.4%;
+}
+
+.lift_input_block input[type="number"] {
+    height:22px;
+    width:7.1%;
+    border-color: black;
+ 
+}
+
+.container.millAlignmentClass div.radial_clearance_input_top_block{
+    position: absolute;
+    top:21.7%;
+    left:19.2%;
+    height:26px;
+    width:61.9%;
+}
+
+.container.millAlignmentClass div.radial_clearance_input_bottom_block{
+    position: absolute;
+    bottom:35.4%;
+    left:19.2%;
+    height:26px;
+    width:61.9%;
+}
+
+div.radial_clearance_input_top_block input[type="number"] ,div.radial_clearance_input_bottom_block input[type="number"]{
+    height:25px;
+    width:7%;
+    border-color: black;
+    
+}
+
+div.pump-type select{
+    position: absolute;
+    width:10.5%;
+    height:30px;
+}
+
+select.mill_bearing_rotation_direction_select{
+    position: absolute;
+    height:60px;
+    top:35%;
+    font-size:25px;
+    left:47.7%;
+    width:5%;
+    background-color: lightgrey;
+    border-color: black;
+}
+
+select.mill_bearing_thrust_direction_select{
+    position: absolute;
+    height:28px;
+    bottom:48%;
+    font-size:25px;
+    left:47.7%;
+    width:5%;
+    background-color: lightgrey;
+    border-color: black;
+}
+
+input#fixed_lift_input, input#fixed_radial_clearance_top_input1,
+input#fixed_radial_clearance_bottom_input1, input#fixed_pump1_input_top_input1,
+input#fixed_pump2_input_top_input1, input#fixed_pump3_input_top_input1, input#fixed_pump3_input_bottom_input1,
+input#fixed_pump2_input_bottom_input1,input#fixed_pump1_input_bottom_input1,select.fixed_pump_type_select, input#fixed_pump_dimension_width,
+input#pinion_offset_right_root_left_side , input#pinion_offset_left_root_left_side{
+    left:0;
+}
+input#fixed_pump1_input_top_input2,input#fixed_pump1_input_bottom_input2{
+    left:6.5%;
+}
+input#fixed_radial_clearance_top_input2,input#fixed_radial_clearance_bottom_input2,
+input#fixed_pump2_input_top_input2,input#fixed_pump2_input_bottom_input2{
+    left:7%;
+}
+input#fixed_pump_dimension_height{
+    left:8%;
+}
+input#fixed_pump3_input_top_input2,input#fixed_pump3_input_bottom_input2{
+    left:12%;
+} 
+input#fixed_pump1_input_top_input3,input#fixed_pump1_input_bottom_input3{
+    left:13%;
+}
+input#fixed_pump2_input_top_input3,input#fixed_pump2_input_bottom_input3{
+    left:14%;
+}
+input#fixed_radial_clearance_top_input3,input#fixed_radial_clearance_bottom_input3{
+    left:20%;
+}
+input#fixed_radial_clearance_top_input4,input#fixed_radial_clearance_bottom_input4{
+    left:27%;
+}
+
+/* ________________________________ */
+input#free_lift_input,input#free_radial_clearance_top_input4,input#free_radial_clearance_bottom_input4,input#free_pump1_input_top_input1,
+input#free_pump2_input_top_input1,input#free_pump3_input_top_input1,input#free_pump3_input_bottom_input1,
+input#free_pump2_input_bottom_input1,input#free_pump1_input_bottom_input1, select.free_pump_type_select,input#free_pump_dimension_width,
+input#pinion_offset_right_root_right_side , input#pinion_offset_left_root_right_side{
+    right:0;
+}
+
+input#free_pump1_input_top_input2,input#free_pump1_input_bottom_input2{
+    right:6.5%;
+}
+
+input#free_pump2_input_top_input2,input#free_pump2_input_bottom_input2,input#free_radial_clearance_top_input3,
+input#free_radial_clearance_bottom_input3{
+    right:7%;
+}
+
+input#free_pump_dimension_height{
+    right:8%;
+}
+input#free_pump1_input_top_input3,input#free_pump1_input_bottom_input3,input#free_pump3_input_top_input2,input#free_pump3_input_bottom_input2{
+    right:13%;
+} 
+input#free_pump2_input_top_input3,input#free_pump2_input_bottom_input3{
+    right:14%;
+}
+input#free_radial_clearance_top_input2,input#free_radial_clearance_bottom_input2{
+    right:20%;
+}
+input#free_radial_clearance_top_input1,input#free_radial_clearance_bottom_input1{
+    right:26.9%;
+}
+/* --------------------------- Disabled --------------------------- */
+input#fixed_lift_input_disabled, input#fixed_radial_clearance_top_input1_disabled,
+input#fixed_radial_clearance_bottom_input1_disabled, input#fixed_pump1_input_top_input1_disabled,
+input#fixed_pump2_input_top_input1_disabled, input#fixed_pump3_input_top_input1_disabled, input#fixed_pump3_input_bottom_input1_disabled,
+input#fixed_pump2_input_bottom_input1_disabled,input#fixed_pump1_input_bottom_input1_disabled,select.fixed_pump_type_select.disabled, input#fixed_pump_dimension_width_disabled{
+    left:0; color:#484848; border-color: black; background-color: #484848;}
+input#fixed_pump1_input_top_input2_disabled,input#fixed_pump1_input_bottom_input2_disabled{
+    left:6.5%; color:#484848; border-color: black; background-color: #484848;}
+input#fixed_radial_clearance_top_input2_disabled,input#fixed_radial_clearance_bottom_input2_disabled,
+input#fixed_pump2_input_top_input2_disabled,input#fixed_pump2_input_bottom_input2_disabled{
+    left:7%; color:#484848; border-color: black; background-color: #484848;}
+input#fixed_pump_dimension_height_disabled{
+    left:8%; color:#484848; border-color: black; background-color: #484848;}
+input#fixed_pump3_input_top_input2_disabled,input#fixed_pump3_input_bottom_input2_disabled{
+    left:12%; color:#484848; border-color: black; background-color: #484848;} 
+input#fixed_pump1_input_top_input3_disabled,input#fixed_pump1_input_bottom_input3_disabled{
+    left:13%; color:#484848; border-color: black; background-color: #484848;}
+input#fixed_pump2_input_top_input3_disabled,input#fixed_pump2_input_bottom_input3_disabled{
+    left:14%; color:#484848; border-color: black; background-color: #484848;}
+input#fixed_radial_clearance_top_input3_disabled,input#fixed_radial_clearance_bottom_input3_disabled{
+    left:20%; color:#484848; border-color: black; background-color: #484848;}
+input#fixed_radial_clearance_top_input4_disabled,input#fixed_radial_clearance_bottom_input4_disabled{
+    left:27%; color:#484848; border-color: black; background-color: #484848;}
+
+input#free_lift_input_disabled,input#free_radial_clearance_top_input4_disabled,input#free_radial_clearance_bottom_input4_disabled,input#free_pump1_input_top_input1_disabled,
+input#free_pump2_input_top_input1_disabled,input#free_pump3_input_top_input1_disabled,input#free_pump3_input_bottom_input1_disabled,
+input#free_pump2_input_bottom_input1_disabled,input#free_pump1_input_bottom_input1_disabled,select.free_pump_type_select.disabled,input#free_pump_dimension_width_disabled{
+    right:0; color:#484848; border-color: black; background-color: #484848;}
+input#free_pump1_input_top_input2_disabled,input#free_pump1_input_bottom_input2_disabled{
+    right:6.5%; color:black; border-color: black; background-color: #484848;}
+input#free_pump2_input_top_input2_disabled,input#free_pump2_input_bottom_input2_disabled,input#free_radial_clearance_top_input3_disabled,
+input#free_radial_clearance_bottom_input3_disabled{
+    right:7%; color:black; border-color: black; background-color: #484848;}
+input#free_pump_dimension_height_disabled{
+    right:8%; color:black; border-color: black; background-color: #484848;}
+input#free_pump1_input_top_input3_disabled,input#free_pump1_input_bottom_input3_disabled,input#free_pump3_input_top_input2_disabled,input#free_pump3_input_bottom_input2_disabled{
+    right:13%; color:black; border-color: black; background-color: #484848;} 
+input#free_pump2_input_top_input3_disabled,input#free_pump2_input_bottom_input3_disabled{
+    right:14%; color:black; border-color: black; background-color: #484848;}
+input#free_radial_clearance_top_input2_disabled,input#free_radial_clearance_bottom_input2_disabled{
+    right:20%; color:black; border-color: black; background-color: #484848;}
+input#free_radial_clearance_top_input1_disabled,input#free_radial_clearance_bottom_input1_disabled{
+    right:26.9%; color:black; border-color: black; background-color: #484848;} 
+/* --------------------------- Disabled --------------------------- */
+div.pump-type{
+    position: absolute;
+    top:40.7%;
+    left:29.6%;
+    height:28.5px;
+    width:46.3%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+div.pump1_input_block_top{
+    position: absolute;
+    top:31%;
+    left:24.5%;
+    height:27px;
+    width:51%;
+}
+
+div.pump1_input_block_top input[type="number"],div.pump1_input_block_bottom input[type="number"]{
+    height:25px;
+    width:6%;
+    border-color: blue;
+}
+
+div.pump2_input_block_top{
+    position: absolute;
+    top:34%;
+    left:24%;
+    height:27px;
+    width:52.1%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+div.pump2_input_block_top input[type="number"],div.pump2_input_block_bottom input[type="number"]{
+    height:25px;
+    width:7%;
+    border-color: yellow;
+}
+
+div.pump3_input_block_top{
+    position: absolute;
+    top:37.7%;
+    left:24.6%;
+    height:32px;
+    width:51%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+div.pump3_input_block_top input[type="number"] , div.pump3_input_block_bottom input[type="number"]{
+    height:25px;
+    width:7%;
+    border-color: red;
+}
+
+div.pump3_input_block_bottom{
+    position: absolute;
+    bottom:51.5%;
+    left:24.6%;
+    height:32px;
+    width:51%;
+   
+}
+div.pump2_input_block_bottom{
+    position: absolute;
+    bottom:48.8%;
+    left:24%;
+    height:27px;
+    width:52.1%;
+}
+
+div.pump_dimensions{
+    position: absolute;
+    top:43.1%;
+    left:25.8%;
+    height:25px;
+    width:48%;
+}
+
+div.pump_dimensions input[type="number"]{
+    height:25px;
+    width:6%;
+    background-color: rgb(210, 251, 251);
+    border-color: black;
+}
+
+div.pump1_input_block_bottom{
+    position: absolute;
+    bottom:46%;
+    left:24.5%;
+    height:28px;
+    width:51%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex; 
+}
+
+.container.millAlignmentClass #label-background{
+    width: 45%;
+    background-color: white;
+    min-height: 150px;
+}
+
+ul #note-lists{
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 25px;
+    line-height: 20px;
+}
+.container.millAlignmentClass label#mill-alignment-notes{
+    margin-bottom: 5px;
+    width: 55px;
+    border: 1px solid black;
+}
+
+.mill-alignment-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mill-alignment-flex textarea{
+    width:55%;
+}
+
+/* 16 inch monitor Lenovo P51  */
+
+@media (max-width: 1536px) {
+    .container.millAlignmentClass div.radial_clearance_input_top_block{
+        
+        top:22.5%;
+        left:19.2%;
+        height:26px;
+        width:61.9%;
+    }
+    
+    .container.millAlignmentClass div.radial_clearance_input_bottom_block{
+       
+        bottom:32.5%;
+        left:19.2%;
+        height:26px;
+        width:61.9%;
+    }
+    select.mill_bearing_rotation_direction_select{
+       
+        top:34.5%;
+        
+    }
+
+  }  

@@ -1,0 +1,99 @@
+.mill-spec-body{
+    margin: 25px;
+    min-height:100vh;
+    background-color: white;
+}
+
+#tg-left{
+    padding:20px 0 0 100px;
+}
+
+#tg-right{
+
+    padding:20px 0 0 300px;
+}
+
+.mill-spec-body .tg th {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px 5px;
+    background-color: teal;
+    text-align: center;
+    vertical-align: center;
+    
+  }
+  
+  .tg-amwm {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .tg-baqh {
+    text-align: center;
+    padding: 5px 20px 5px 10px;
+  }
+
+  .tg-lqy6 {
+    text-align: center;
+    padding: 5px 15px 5px 10px;
+  }
+
+  .mill-spec-body .tg td {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px ;
+    background-color: white;
+  }
+  
+  .row {
+    display: flex; /* equal height of the children */
+  }
+  
+  .mill-spec-body .row .column.left {
+
+    margin-left:auto;
+    float: left;
+   
+  }
+
+  .mill-spec-body .row .column.right {
+
+    margin-right:auto;
+    float: right;
+    padding: 10px;
+  }
+  
+#listItem {
+    padding-left: 10em;
+  }
+
+#column-title{
+    font-weight: bold;
+}  
+  
+
+/* 16 inch monitor Lenovo P51  */
+@media (max-width: 1536px) {
+  .mill-spec-body .tg td {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px ;
+    background-color: white;
+  }
+}  
+  
+
+
+@media only screen 
+  and (min-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .mill-spec-body{
+      margin: 25px;
+      height:150vh;
+    }
+}

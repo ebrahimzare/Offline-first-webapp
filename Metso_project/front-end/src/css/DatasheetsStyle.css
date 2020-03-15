@@ -1,0 +1,51 @@
+.NavTabs{
+    margin: 1.5rem;
+    font-size: 1.5ex;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+}
+
+.datasheet-data .nav.nav-tabs .nav-item ,.datasheet-data .nav.nav-tabs ul object .dropdown.nav-item {
+    height:100%;
+    background-color: rgb(211, 212, 212);
+}
+
+div.datasheet-data{
+    min-height: 85vh;
+}
+.datasheet-data .nav.nav-tabs .nav-item .nav-link {
+    color:black;
+    padding-top:0px;
+    font-size: 14px;
+}
+
+.nav-link ul li {
+    list-style-type: none;
+}
+
+.report-link{
+    margin-bottom:25px;
+}
+
+.report-link-pinion{
+    margin-bottom:25px;
+}
+
+.button-flex .btn{
+    margin-top:15px;
+    width: 120px;
+    font-size: 15px;
+  } 
+
+/* 16 inch monitor Lenovo P51  */
+@media (max-width: 1536px) {
+    .report-link-pinion{
+        transform: translate(-50px, 250px);
+    }
+    
+   
+  }  
+    

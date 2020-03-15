@@ -1,0 +1,142 @@
+.container.pinionBearingHousing{
+    padding:25px 10% 15px 10%;
+    margin:auto;
+    height: 99%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+div.pinion-housing-flex{
+    display: flex;
+    flex-wrap:nowrap;
+    
+}
+
+div.pinion-housing-flex > .container.pinionBearingHousing img.equipment-image.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container.pinionBearingHousing img.equipment-image.center{
+    margin-bottom: 25px;
+}
+
+.container.pinionBearingHousing table.pinion-housingTable {
+ margin-right: auto;
+ margin-left: auto;
+ margin-bottom: 25px;
+ width: 100%;
+ height:180px;
+}
+
+table.pinion-housingTable td {
+    background-color: #FFFFFF ;
+    border: 1px solid black;
+    height:20%;
+}
+
+table.pinion-housingTable th {
+    background-color: #00a877;
+}
+
+table.pinion-housingTable input{
+    border: 0.5px solid black;
+    background-color: lightblue;
+    width:100%;
+    height:100%;
+    margin-top:0;
+} 
+
+.container.pinionBearingHousing .flatness-image{    
+ padding-bottom:15px;
+}
+
+.container.pinionBearingHousing .selected_housing{
+    font-size:12px;
+    font-weight: bold;
+    border: 3px solid red;
+    min-width: 20%;
+    height: 40px; 
+    border-style: inset;  
+    box-shadow: 5px 4px rgb(247, 97, 97);
+    text-shadow: 1px 1px 1px pink, 0 0 50px red, 0 0 5px pink;
+  }
+  
+.container.pinionBearingHousing .non_selected_housing{
+    font-size:12px;
+    font-weight: bold;
+    border: 3px solid blue;
+    min-width: 20%;
+    height: 35px;  
+    box-shadow: 5px 4px rgb(153, 206, 250); 
+    text-shadow: 1px 1px 1px rgb(165, 218, 243), 0 0 50px blue, 0 0 5px rgb(74, 196, 252);
+  }
+
+.container.pinionBearingHousing #pinion-housing-notes{
+    display: flex;
+    width:55px;
+    background-color: white;
+    height:20px;
+}
+
+
+
+div.pinion-housing-flex > div.housing-selects-block{
+  height: 40px;
+  min-width: 18.8%;
+  display: block; 
+  margin-left:auto;
+  margin-right:auto;
+  position: absolute;
+  top:80px;
+  right:32.5%; 
+}
+
+.container.pinionBearingHousing div.pinion-housing-flex textarea{
+    background-color: white;
+    width:100%;   
+}
+
+div.metso-logo-image-pinion-housing-flex {
+    align-content: flex-end;
+    display: flex;
+}
+
+.container.pinionBearingHousing div.housing-selects-block #leftSelection {
+    position: absolute;
+    left:0;
+  }
+  
+.container.pinionBearingHousing div.housing-selects-block #rightSelection  {
+    position: absolute;
+    right:0;
+  }
+
+  /* @media (max-width: 1919px) {
+    div.housing-selects-block{
+     width: 19%; 
+     position: absolute;
+     right:33%; 
+   }
+   }  
+ 
+   @media (max-width: 1777px) {
+    div.housing-selects-block{
+     width: 20.5%; 
+     position: absolute;
+     right:31.5%; 
+   }
+   }   */
+
+/* 16 inch monitor Lenovo P51  */
+/* not budging */
+@media (max-width: 1536px) {
+    div.pinion-housing-flex > div.housing-selects-block{
+    width: 24.5%; 
+    position: absolute;
+    right:28%; 
+  }
+  }  
+
+  

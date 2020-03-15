@@ -1,0 +1,254 @@
+div.container.tempSheetClass{
+  padding:25px 10px 15px 10px;
+  max-width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+ div.temperature-table-instruction-flex, div.temperature-table-input-flex ,div.metso-logo-image-flex ,.button-flex{
+  display: flex;
+  flex-wrap: nowrap;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+form.equipment-image-block{
+  display: block;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+/* set the width equal to the image  */
+div.tempSheetClass div.temperature-selects-block { 
+  height: 40px;
+  display: block;
+  width: 44%;
+  margin-left:auto;
+  margin-right:auto;
+  position: absolute;
+  top:155px;
+  left:27.6%; 
+}
+
+div.tempSheetClass div.temperature-selects-block #leftSelection {
+  position: absolute;
+  left:0%;
+}
+
+div.tempSheetClass div.temperature-selects-block #rightSelection  {
+  position: absolute;
+  right:0%;
+}
+
+div.temperature-table-instruction-flex > table.temperature-table{
+  width: 100%;
+  margin-right: auto;
+  
+}
+div.temperature-table-instruction-flex > table.temperature-table td{
+  height: 2.25em;
+}
+
+table.temperature-table,table.TempTable{
+  margin-top: 25px;
+}
+
+img.metso-logo-image{
+ margin-top: 15px;
+ margin-left: auto;
+ width: 25%;
+}
+
+.tg-amwm{
+border: 1px solid black;
+height: 30px;
+vertical-align: middle;
+}
+
+.TempTable .tg-amwm.temp-table-head{
+  color:orangered;
+  text-shadow: 1.5px 1.5px teal;
+}
+
+div.tempSheetClass .selected_temp{
+  font-size:12px;
+  font-weight: bold;
+  border: 3px solid red;
+  min-width: 19%;
+  height: 40px; 
+  border-style: inset;  
+  box-shadow: 5px 4px rgb(247, 97, 97);
+  text-shadow: 1px 1px 1px pink, 0 0 50px red, 0 0 5px pink;
+}
+
+div.tempSheetClass .non_selected_temp{
+  font-size:12px;
+  font-weight: bold;
+  border: 3px solid blue;
+  min-width: 19%;
+  height: 35px;  
+  box-shadow: 5px 4px rgb(153, 206, 250); 
+  text-shadow: 1px 1px 1px rgb(165, 218, 243), 0 0 50px blue, 0 0 5px rgb(74, 196, 252);
+}
+
+.temperature-table td {
+  background-color: #FFFFFF ;
+}
+.temperature-table-input-flex td textarea {
+  border: 0px ;
+  width:100%;
+}
+
+.temperature-table th {
+  
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  
+  background-color: #00a877 ;
+  text-align: left;
+  vertical-align: center;
+}
+
+.TempTable td{
+  border: 1px solid black;
+ 
+  text-align: center; 
+  vertical-align: middle;
+  background-color: #FFFFFF ;
+/* #fc9000 */
+}
+
+.TempTable th {
+  
+  background-color: #00a877 ;
+}
+
+.tg-tbody .tg-lqy6 {
+  text-align: left;
+
+  font-size: 15px;
+}
+
+.tag-Date{
+  width: 10%;
+}
+
+.tag-Date input{
+  width: 100%;
+  border:none;
+}
+
+
+.tag-HRES input{
+  
+  width: 100%;
+  border:none;
+}
+
+td.tag-Temp{
+  width: 5%;
+}
+
+td.tag-Temp input{
+  width: 100%;
+  text-align: center;
+  border:none;
+}
+
+td.tag-Temp input{
+  border-color: white;
+}
+
+td.tag-Temp.Delta1 input{
+  width:100%;
+}
+
+td.tag-Temp.Delta{
+  background-color: #D5D5D5;
+  width: 5%;
+}
+
+.tag-Temp.Delta1 {
+  background-color: yellow;
+  width:5%;
+}
+
+td.tag-Temp.Delta1 input{
+  background-color: yellow;
+  width:100%;
+}
+
+.tag-Temp.Delta1 input{
+  border-color: yellow;
+}
+
+td.tag-Temp.Delta2  {
+  background-color: orange;
+  width: 5%;
+}
+
+.tag-Temp.Delta2 input{
+  background-color: orange;
+  width: 100%;
+}
+
+.tag-Temp.Delta2 input{
+  border-color: orange;
+}
+
+.tag-Temp.Pinion {
+  background-color: #A8E2F4;
+  width: 5%;
+}
+
+.tag-Temp.Pinion input{
+  background-color: #A8E2F4;
+  width: 100%;
+}
+.tag-Temp.Pinion input{
+  border-color: #A8E2F4;
+}
+
+#column-title{
+  font-weight: bold;
+}  
+
+
+.tg-lqy6{
+border: 1px solid black;
+
+}
+
+.tg-lqy7{
+border: 1px solid black;
+}
+
+/* 16 inch monitor Lenovo P51  */
+@media (max-width: 1536px) {
+  
+}  
+
+/*Ipad Pro  */
+@media (max-width: 1366px) {
+ 
+}  
+
+@media (max-width: 1152px) {
+
+  div.tempSheetClass div.temperature-selects-block #leftSelection {
+    position: absolute;
+    left:1%;
+  }
+  
+  div.tempSheetClass div.temperature-selects-block #rightSelection  {
+    position: absolute;
+    right:1%;
+  }
+}
+
+@media (max-width: 900px) {
+
+  
+}
